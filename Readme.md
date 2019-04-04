@@ -3,7 +3,7 @@
 
 * [Operation.cs](./CS/App_Code/Operation.cs) (VB: [Operation.vb](./VB/App_Code/Operation.vb))
 * [TestHandler.cs](./CS/App_Code/TestHandler.cs) (VB: [TestHandler.vb](./VB/App_Code/TestHandler.vb))
-* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
+* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # How to track progress of server side processing on the client side (using HttpHandler)
