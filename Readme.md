@@ -7,6 +7,9 @@
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # How to track progress of server side processing on the client side (using HttpHandler)
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4651/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates one of many possible scenarios when a client should be notified of the progress of a server process. The sample includes a class declaration of a custom HttpHandler; the latter processes the simplest request from the client and returns information that can be restored and used to display current progress, without refreshing the whole page. The other defined class emulates long-time processing, which starts with a standalone thread and is executed in the background. This is an advantage because a callback is performed on the server side quickly if a client requests a new process.</p>
