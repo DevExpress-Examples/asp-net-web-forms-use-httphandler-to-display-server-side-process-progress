@@ -15,7 +15,7 @@ Partial Public Class _Default
 
     End Sub
 
-    Protected Sub cbak_Callback(ByVal source As Object, ByVal e As DevExpress.Web.ASPxCallback.CallbackEventArgs)
+    Protected Sub cbak_Callback(ByVal source As Object, ByVal e As DevExpress.Web.CallbackEventArgs)
         Operation.AsyncStart(5000)
     End Sub
 End Class

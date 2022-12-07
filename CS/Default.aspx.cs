@@ -14,7 +14,7 @@ public partial class _Default : System.Web.UI.Page
 
     }
 
-    protected void cbak_Callback(object source, DevExpress.Web.ASPxCallback.CallbackEventArgs e) {     
+    protected void cbak_Callback(object source, DevExpress.Web.CallbackEventArgs e) {     
         Operation.AsyncStart(5000);
     }
 }
