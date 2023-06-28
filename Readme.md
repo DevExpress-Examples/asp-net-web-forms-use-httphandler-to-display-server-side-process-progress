@@ -3,7 +3,7 @@
 **[[Run Online]](https://codecentral.devexpress.com/e4651/)**
 <!-- run online end -->
 
-This example demonstrates how to an HTTP handler to get information about the current progress from the server and display it on the client without refreshing the whole page.
+This example demonstrates how to use an HTTP handler to get information about the current progress from the server and display it on the client without refreshing the whole page.
 
 ![HTTP handlers to display the progress](HTTPHandlers.png)
 
