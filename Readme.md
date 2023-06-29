@@ -1,6 +1,6 @@
 # ASP.NET Web Forms - How to use HTTP handlers to display the progress of a server-side process on the client
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4651/)**
+**[[Run Online]](https://codecentral.devexpress.com/128565347/)**
 <!-- run online end -->
 
 This example demonstrates how to use an HTTP handler to get information about the current progress from the server and display it on the client without refreshing the whole page.
