@@ -13,13 +13,13 @@ Public Class TestHandler
 		Return progress.ToString()
 	End Function
 
-	Public ReadOnly Property IsReusable() As Boolean
+	Public ReadOnly Property IsReusable() As Boolean Implements IHttpHandler.IsReusable
 		Get
 			Return False
 		End Get
 	End Property
 
-	Public Sub ProcessRequest(ByVal context As HttpContext)
+	Public Sub ProcessRequest(ByVal context As HttpContext) Implements IHttpHandler.ProcessRequest
 		Dim response = GetProgress(context.Session)
 		context.Response.CacheControl = "No-cache"
 		context.Response.Write(response)
